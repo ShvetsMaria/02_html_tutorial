@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 70px;
   overflow-x: hidden;
 }
 
@@ -32,7 +32,7 @@ section {
   align-items: center;
   gap: 50px;
   width: 100%;
-  height: 100vh;
+ 
 }
 
 /* Секція про вебдизайн - вітальна з відео */
@@ -97,7 +97,7 @@ h2 {
   align-items: center;
   gap:15px;
   width:100%;
-  height: 100vh;
+  height: 150vh;
 }
 
 .tag-container {
@@ -140,4 +140,33 @@ h2 {
 .tag-description {
   display: none;
   text-align: left;
+}
+
+.site-footer {
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+}
+
+.site-footer a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #005f99;
+  text-decoration: underline;
+}
+
+.site-footer .footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
